@@ -22,7 +22,7 @@ public class NumberGuessingGame {
                     System.out.println("你猜的数字小了");
                 }
                 if (i == 5) {
-                    System.out.println("很遗憾，你没有猜对，正确答案是 " + answer);
+                    System.out.println("很遗憾，你没有猜对，正确答案是: " + answer);
                 }
             }
             System.out.print("是否继续游戏(y/n): ");
