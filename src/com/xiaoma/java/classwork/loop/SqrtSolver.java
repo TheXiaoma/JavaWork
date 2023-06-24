@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class SqrtSolver {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        do {
+        while (true) {
             System.out.print("请输入欲求平方根的数字：");
             double num = scanner.nextDouble();
             if (num <= 2) {
@@ -26,6 +26,6 @@ public class SqrtSolver {
             } else {
                 System.out.println(MessageFormat.format("{0} 的平方根的整数部分为: {1}", num, i - 1));
             }
-        } while (true);
+        }
     }
 }
