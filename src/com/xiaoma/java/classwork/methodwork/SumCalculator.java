@@ -1,4 +1,4 @@
-package com.xiaoma.java.classwork.method;
+package com.xiaoma.java.classwork.methodwork;
 
 public class SumCalculator {
     public static void main(String[] args) {

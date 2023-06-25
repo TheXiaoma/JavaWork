@@ -1,4 +1,4 @@
-package com.xiaoma.java.classwork.arrayList;
+package com.xiaoma.java.classwork.array;
 
 public class ArrayReverser {
     public static void main(String[] args) {

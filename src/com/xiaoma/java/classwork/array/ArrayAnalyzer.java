@@ -1,4 +1,4 @@
-package com.xiaoma.java.classwork.arrayList;
+package com.xiaoma.java.classwork.array;
 
 import java.util.Random;
 
