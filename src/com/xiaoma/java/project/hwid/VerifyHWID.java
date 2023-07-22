@@ -27,7 +27,7 @@ public class VerifyHWID {
             sb.append(scanner.next());
         }
         scanner.close();
-
+        
         String response = sb.toString();
         int contentStart = response.indexOf("\"content\":") + 11; // 找到 content 字段的起始位置
         int contentEnd = response.indexOf("\"", contentStart); // 找到 content 字段的结束位置

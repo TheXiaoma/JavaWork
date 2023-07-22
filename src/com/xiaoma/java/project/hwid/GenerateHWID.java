@@ -112,7 +112,6 @@ public class GenerateHWID {
             }
         }
         String encryptedPlaintext = encryptedPlaintext3Builder.toString();
-
         // 获取 HMAC 密钥
         String hmacKey = encryptedPlaintext.substring(0, 8);
         // 获取 HMAC 消息
