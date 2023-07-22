@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class VerifyHWID {
     public static void main(String[] args) throws Exception {
-        System.out.println(HWIDChecker(com.xiaoma.java.project.hwid.GenerateHWID.getEncryptedHardwareId("secret114514"), "TheXiaoma/HWID", "hwid.txt"));
+        System.out.println(HWIDChecker(GenerateHWID.getEncryptedHardwareId("secret114514"), "TheXiaoma/HWID", "hwid.txt"));
     }
 
     public static boolean HWIDChecker(String hwid, String repoName, String filePath) throws Exception {
